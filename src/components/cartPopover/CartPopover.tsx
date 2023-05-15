@@ -13,7 +13,7 @@ export default function CartPopover({
   isPopoverOpen,
   setIsPopoverOpen,
 }: CartPopoverProps) {
-  const { totalPrice, cartItems, removeCartItem } = useContext(CartItemsContext)
+  const { cartItems, removeCartItem } = useContext(CartItemsContext)
 
   const router = useRouter()
 
