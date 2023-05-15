@@ -8,7 +8,7 @@ export default function EmptyCheckout() {
     <div className="flex justify-center text-center pt-20 md:pt-0">
       <div className="flex flex-col gap-8 justify-center items-center">
         <div className="font-bold text-3xl">
-          Looks like you haven't make your chose yet...
+          Looks like you haven&apos;t make your chose yet...
         </div>
         <button
           onClick={() => {
